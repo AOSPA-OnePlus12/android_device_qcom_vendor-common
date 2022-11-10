@@ -1100,6 +1100,9 @@ PRODUCT_PACKAGES += vendor.qti.hardware.perf@2.0.vendor
 PRODUCT_PACKAGES += vendor.qti.hardware.perf@2.1.vendor
 PRODUCT_PACKAGES += vendor.qti.hardware.perf@2.2.vendor
 
+JAVA_IN_VENDOR_SOONG_WHITE_LIST +=\
+loadlibrarytest_vendor_app\
+
 SOONG_CONFIG_NAMESPACES += vendor_clean_up_java
 SOONG_CONFIG_vendor_clean_up_java += config output file allowlist
 SOONG_CONFIG_vendor_clean_up_java_config := $(CLEAN_UP_JAVA_IN_VENDOR)
