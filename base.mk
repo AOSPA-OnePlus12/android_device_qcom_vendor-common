@@ -1102,6 +1102,7 @@ PRODUCT_PACKAGES += vendor.qti.hardware.perf@2.2.vendor
 
 JAVA_IN_VENDOR_SOONG_WHITE_LIST +=\
 loadlibrarytest_vendor_app\
+ExampleVibratorJavaVendorClient \
 
 SOONG_CONFIG_NAMESPACES += vendor_clean_up_java
 SOONG_CONFIG_vendor_clean_up_java += config output file allowlist
