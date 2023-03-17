@@ -809,6 +809,11 @@ else
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2-impl \
     vendor.qti.hardware.servicetracker@1.2-service
+
+#servicetracker AIDL
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.servicetrackeraidl-impl \
+    vendor.qti.hardware.servicetrackeraidl-service
 endif
 
 # memtrack HAL
